@@ -1,0 +1,15 @@
+doctype 5
+html
+	head
+		title= title
+
+		link(rel="stylesheet", href="css/bootstrap/dist/css/bootstrap.css")
+		link(rel="stylesheet", href="css/bootstrap/dist/css/bootstrap-theme.css")
+
+	body(ng-app="nemgacs")
+		div.container(ng-controller="MainCntrl")
+			block content
+
+		script(src="js/libs/jquery.js")
+		script(src="js/libs/angular.js")
+		script(src="js/app.js")
